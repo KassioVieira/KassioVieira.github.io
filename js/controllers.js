@@ -2,8 +2,31 @@ angular.module("app").controller("HomeController", ["$scope", "syncObject", func
    syncObject.$bindTo($scope, "data");
  }]);
 
- .controller('HomeCtrl', [function() {
+ .controller('HomeCtrl', '$scope','$firebaseSimpleLogin',function($scope,$firebaseSimpleLogin) {
 
+   var firebaseObj = new Firebase("https://blogkassio.firebaseio.com");
+
+   var loginObj = $firebaseSimpleLogin(firebaseObj);
+
+   $scope.SignIn = function($scope) {
+
+   var username = $scope.user.email;
+   var password = $scope.user.password;
+
+   loginObj.$login('password', {
+          email: username,
+          password: password
+      })
+      .then(function(user) {
+          // Success callback
+          console.log('Authentication successful');
+      }, function(error) {
+          // Failure callback
+          console.log('Authentication failure');
+      });
+
+   // Auth Logic will be here
+  }
  }]);
 
 
