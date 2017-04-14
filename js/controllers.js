@@ -2,7 +2,7 @@ angular.module("app").controller("HomeController", ["$scope", "syncObject", func
    syncObject.$bindTo($scope, "data");
  }]);
 
- .controller('HomeCtrl', ['$scope','$firebaseSimpleLogin',function($scope,$firebaseSimpleLogin) {
+  angular.module("app").controller("LoginController", ["$scope","$firebaseSimpleLogin", function($scope,$firebaseSimpleLogin) {
 
    var firebaseObj = new Firebase("https://blogkassio.firebaseio.com");
 
