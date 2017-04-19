@@ -1,0 +1,15 @@
+
+<div class="row" >
+   <div class="col-sm-8 blog-main">
+     <div class="blog-post" ng-repeat="post in data.posts" >
+       <h2 class="blog-post-title">{{ post.title }}</h2>
+       {{ post.body }}
+       <p class="blog-post-meta">{{ post.date }} por <a href="#">{{ post.author }}</a></p>
+     </div>
+   </div>
+   <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+     <div class="sidebar-module sidebar-module-inset">
+       <mast-about></mast-about>
+     </div
+   </div>
+ </div>
