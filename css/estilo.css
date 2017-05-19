@@ -1,0 +1,230 @@
+html,body, #capa, #construcao{
+	height: 100%;
+}
+body{
+	background: #dcdcdc;
+	font-family: 'Arimo', sans-serif;
+}
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover{
+	color: #FFFF00;
+}
+.demo-navegacao{
+	background: rgb(25,24,47); /*Hex: #19182fff*/
+	padding: 10px 0px 10px 0px;
+	/*height: 100px;*/
+}
+.logo{
+	display: block;
+	width: 200px;
+	height: 56px;
+	background: url("../imagens/logo.png") no-repeat;
+}
+#capa{
+	background: url("../imagens/sala-competicao.jpg") center / cover no-repeat;
+	display: table;
+	width: 100%;
+	background-attachment: fixed;
+}
+#texto-capa{
+	background: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	/*text-transform: uppercase;*/
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+}
+#texto-capa{
+	display: table-cell;
+	vertical-align: middle;
+}
+#texto-capa h1{
+	text-align: center;
+	padding: 10px;
+}
+.secao{
+	padding: 20px 0px 20px 0px;
+	background: #FFF;
+	/*margin: 10px 0px 10px 0px;*/
+}
+#time .col-md-4{
+	text-align: center;
+}
+
+footer{
+	background: #000;
+	padding: 20px 0px 10px 0px;
+}
+.redes-sociais ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.perfil{
+ 	padding: 10px 0px 0px 0px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+	display: block;
+	position: relative;
+	height: 470px;
+	margin-bottom: 5px;
+}
+footer{
+	background: #000;
+	padding: 20px 0px 10px 0px;
+}
+
+ul{
+	list-style-type:none;
+}
+.redes-sociais{
+	text-align: right;
+}
+
+.redes-sociais ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* ======================= Página em Construção ======================= */
+#construcao{
+	color: #FFF;
+	text-align: center;
+	display: table;
+	width: 100%;
+	background-attachment: fixed;
+}
+#texto-construcao{
+	background: #19182F;
+	display: table-cell;
+	vertical-align: middle;
+}
+.demo-icone{
+	font-size: 200px !important;
+}
+#construcao h1, #construcao p{
+	text-transform: uppercase;
+}
+#construcao p{
+	color: #6E6E6E;
+}
+.faixa{
+	color: #FFFF00;
+	background: #19182F;
+	text-transform: uppercase;
+	padding: 100px 0px 100px 0px;
+	font-weight: 900;
+	text-align: center;
+}
+/*======================= Página Sobre =======================*/
+#sobre{
+	margin-top: 70px;
+}
+.rota a{
+	color: #19182F;
+}
+.rota a:hover{
+	color: #6E6E6E;
+}
+.separador{
+	background: #19182F;
+}
+/* ======================= Classes Genericas ======================= */
+
+/* ======================= Tipografia ======================= */
+#menu-principal a{
+	color: #FFF;
+	text-transform: uppercase;
+}
+#menu-principal a:hover{
+	background: none;
+	color: #FFFF00;
+}
+/**/
+ul > li > .a-team{
+	width: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	display: block;
+	border-radius:100%;
+	background-color: #19182f;
+}
+.titulo-secao{
+	/*border-left: 8px solid #FFFF00;*/
+	margin-right: 101px;
+	color: #19182F;
+	margin: 0;
+	font-weight: 900;
+	font-size: 40px;
+}/*
+.titulo-secao{
+	padding-left: 10px;
+}
+.subtitulo-secao{
+	padding-left: 20px;
+}*/
+.subtitulo-secao{
+	/*border-left: 10px solid #FFFF00;*/
+	color: #6E6E6E;
+	margin: 0px 0px 30px 0px;
+	font-weight: 400;
+	font-size: 20px;
+}
+.nome{
+	margin-top: 5px;
+	padding: 2px;
+	background: #19182F;
+	font-size: 18px;
+	color: #FFFF00;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.funcao{
+	display: block;
+	margin-bottom: 10px;
+	padding: 2px;
+	background: #19182F;
+	font-size: 12px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.descricao{
+	color: #6E6E6E;
+}
+.titulo{
+	color: #6E6E6E;
+	padding: 5px;
+	display: block;
+	text-align: left;
+}
+.competencias{
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	/*background: red;*/
+	bottom: 0;
+}
+.subtitulo{
+	display: block;
+	font-weight: 900;
+	float: left;
+}
+.perfil-social{
+	background: red;
+	padding: 10px;
+	border-radius: 50px;
+}
+hr{
+	margin-top: 0px;
+	background-color:#19182F;
+	width:210px;
+	float:left;
+	height:4px;
+}
+
+/*Media Querys*/
+@media(max-width:720px) {
+	.redes-sociais{
+		text-align:center !important;
+	}
+}
