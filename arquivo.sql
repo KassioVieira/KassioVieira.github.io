@@ -1,0 +1,8 @@
+CREATE TABLE questoes(
+	id INTERGER PRIMARY KEY NOT NULL,
+  	titulo TEXT NOT NULL,
+  	a TEXT NOT NULL,
+  	b TEXT NOT NULL,
+    c TEXT NOT NULL,
+    resposta NOT NULL
+);
