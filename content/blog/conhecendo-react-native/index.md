@@ -1,5 +1,7 @@
 ---
+date: "2019-07-12T17:12:33.962Z"
 title: Conhecendo o React-Native
+description: Vamos conhecer o React-Native,essa biblioteca ques está sendo utilizada para desenvolvimento multiplataforma e é baseado no já conhecido React...
 ---
 
 ## Conhecendo o React-Native
@@ -40,8 +42,8 @@ No RN tudo é componente e isso permite um reuso muito grande dentro da aplicaç
 Exemplo:
 
 ```js
-import React, { Component } from "react"
-import { View, Text } from "react-native"
+import React, { Component } from "react";
+import { View, Text } from "react-native";
 
 export default class MyComponent extends Component {
   render() {
@@ -49,7 +51,7 @@ export default class MyComponent extends Component {
       <View>
         <Text>Hello React-Native</Text>
       </View>
-    )
+    );
   }
 }
 ```
@@ -61,20 +63,20 @@ Como a própria [documentação](https://facebook.github.io/react-native/docs/st
 Exemplo:
 
 ```js
-import React, { Component } from "react"
-import { View, Text } from "react-native"
+import React, { Component } from "react";
+import { View, Text } from "react-native";
 
 export default class MyComponent extends Component {
   state = {
-    name: "My-Name",
-  }
+    name: "My-Name"
+  };
 
   render() {
     return (
       <View>
         <Text>Hello {this.state.name}</Text>
       </View>
-    )
+    );
   }
 }
 ```
@@ -82,13 +84,13 @@ export default class MyComponent extends Component {
 Como visto no exemplo para acessar um dado do state você utiliza a sintaxe:
 
 ```js
-this.state.name
+this.state.name;
 ```
 
 para alterar o valor do seu state, faça dessa forma
 
 ```js
-this.setState({ name: "novo valor" })
+this.setState({ name: "novo valor" });
 ```
 
 É possível alterar o state de um componente a partir de outro? sim, é possível mais não é indicado, se você deseja ter um state que possa ser acessado por toda a aplicação você deve utilizar **Redux**, **MobX** ou um similar.
