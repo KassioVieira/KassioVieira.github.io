@@ -1,5 +1,5 @@
 ---
-date: "2019-07-12T17:12:33.962Z"
+date: "2019-04-02T17:12:33.962Z"
 title: Conhecendo o React-Native
 description: Vamos conhecer o React-Native,essa biblioteca ques está sendo utilizada para desenvolvimento multiplataforma e é baseado no já conhecido React...
 ---
