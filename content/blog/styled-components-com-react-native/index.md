@@ -14,7 +14,7 @@ O styled components é uma biblioteca que permite que a gente escreva CSS dentro
 
 #### Hora de codificar
 
-Bom neste artigo vou aproveitar o código que fizemos no post anterior, se ainda não leu [clique aqui](https://medium.com/@kassio.vieira7/primeiro-app-com-react-native-5b2096c8ac26) sem medo de ser feliz.
+Bom neste artigo vou aproveitar o código que fizemos no post anterior, se ainda não leu [clique aqui](https://kassioluz.netlify.app/primeiro-app-com-react-native/) sem medo de ser feliz.
 
 Agora vamos instalar essa biblioteca no nosso projeto.
 
@@ -24,7 +24,7 @@ $ npm i styled-components
 
 Com isso vamos criar nosso primeiro componente, e para isso crie a seguinte estrutura na raiz do seu projeto `src/components/Button` e dentro dela adicione os arquivos `Button.js` e `styles.js`.
 
-Abra o arquivo `styles,js` e adicione o seguinte código.
+Abra o arquivo `styles.js` e adicione o seguinte código.
 
 ```js
 import styled from "styled-components/native";
@@ -104,7 +104,7 @@ por
 
 O resultado é o mesmo do apresentado ao fim do [post](https://medium.com/@kassio.vieira7/primeiro-app-com-react-native-5b2096c8ac26) anterior, mas dessa vez utilizando Styled Components.
 
-![resultado4](https://github.com/KassioVieira/tutoriais/blob/master/4.png "resultado4")
+![resultado4](./2.png "resultado4")
 
 Com isso temos nosso primeiro componente que utiliza essa biblioteca. Para praticar você pode reescrever os demais componentes utilizando o Styled Componentes, também estude a documentação para aprender mais sobre a biblioteca.
 
